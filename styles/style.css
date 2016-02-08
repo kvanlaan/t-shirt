@@ -21,6 +21,7 @@
 #flipHolder {
   display: inline-block;
   width: 100%;
+  padding:1%;
   margin-top: 39px;
   transition: 1s transform ease;
   transform-style: preserve-3d;
@@ -30,7 +31,8 @@
 
 img {
   display: inline-block;
-  width: 100%;
+  width: 95%;
+  padding: 5%;
   position: absolute;
   backface-visibility: hidden;
 }
