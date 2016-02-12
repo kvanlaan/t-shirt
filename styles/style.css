@@ -5,8 +5,12 @@
 
 
 #mainContainer {
-  margin: 5%;
-  max-width: 90%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  width: 80%;
+
 
 }
 
@@ -157,11 +161,11 @@ input[type="checkbox"] {
 .sizesSelect {
   position: absolute;
   background: white;
-  width: 180%;
+  width: 140%;
   border: 2px solid #66AAD9;
   border-bottom: none;
   bottom: 101%;
-  left: -125%;
+  left: -90%;
   color: #66AAD9;
   cursor: pointer;
   opacity: 0;
@@ -278,9 +282,10 @@ input[type="checkbox"] {
   max-height:120%;
   text-align: center;
   padding: 8px ;
-  bottom: 95px;
+  bottom: 75px;
   border: 2px solid #66AAD9;
   border-bottom: none;
+  z-index: 2;
   cursor: pointer;
   background: #fff;
   opacity: 0;
