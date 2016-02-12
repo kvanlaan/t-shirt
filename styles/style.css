@@ -110,6 +110,7 @@ input[type="checkbox"] {
 .color
  .cart {
   border-right: 2px solid #66AAD9;
+  height: 70px;
   
 }
 
@@ -131,36 +132,45 @@ input[type="checkbox"] {
 .sizes {
   position: relative;
   cursor: pointer;
+  -webkit-transition: 0.3s all ease;
+  -moz-transition: 0.3s all ease;
+  transition: 0.3s all ease;
 }
 
 .sizes:hover {
   background: #66AAD9;
   color: white;
-  transition: 0.3s all ease;
   border-top: none;
 }
 
-.sizes:hover .sizesSelect {
+.sizes:hover > .arrow-down {
   opacity: 1;
-  bottom: 70px;
+  bottom: 70%;
 }
 
-.sizes:hover .arrow-down {
+
+.sizes:hover > .sizesSelect {
   opacity: 1;
-  bottom: 70px;
 }
+
 
 .sizesSelect {
   position: absolute;
-  left: -40%;
-  width: 180%;
   background: white;
+  width: 180%;
   border: 2px solid #66AAD9;
   border-bottom: none;
+  bottom: 100%;
+  left: -125%;
   color: #66AAD9;
   cursor: pointer;
   opacity: 0;
+  -webkit-transition: visibility 0s 0.3s, opacity 0.3s, bottom 0.3s;
+  -moz-transition: visibility 0s 0.3s, opacity 0.3s, bottom 0.3s;
   transition: visibility 0s 0.3s, opacity 0.3s, bottom 0.3s;
+  transform: translateX(50%);
+  
+
 }
 
 .sizesSelect span {
@@ -175,6 +185,8 @@ input[type="checkbox"] {
 
 .sizesSelect span:hover {
   color: #e67e22;
+  -webkit-transition: visibility 0s 0.3s, opacity 0.3s, bottom 0.3s;
+  -moz-transition: visibility 0s 0.3s, opacity 0.3s, bottom 0.3s;
   transition: 0.3s all ease;
 }
 
@@ -337,6 +349,9 @@ i.fa.fa-square.yellow:hover {
   top: 0;
   position: absolute;
   left: 38%;
+  -webkit-transition: visibility 0s 0.3s, opacity 0.3s, bottom 0.3s;
+  -moz-transition: visibility 0s 0.3s, opacity 0.3s, bottom 0.3s;
+  transition: visibility 0s 0.3s, opacity 0.3s, bottom 0.3s;
 }
 
 
