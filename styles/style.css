@@ -160,11 +160,12 @@ input[type="checkbox"] {
   width: 180%;
   border: 2px solid #66AAD9;
   border-bottom: none;
-  bottom: 100%;
+  bottom: 101%;
   left: -125%;
   color: #66AAD9;
   cursor: pointer;
   opacity: 0;
+  z-index: 2;
   -webkit-transition: visibility 0s 0.3s, opacity 0.3s, bottom 0.3s;
   -moz-transition: visibility 0s 0.3s, opacity 0.3s, bottom 0.3s;
   transition: visibility 0s 0.3s, opacity 0.3s, bottom 0.3s;
